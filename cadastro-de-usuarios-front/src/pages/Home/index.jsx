@@ -7,13 +7,13 @@ function index() {
     <>
       <div className='container'>
 
-        <form>
+        <form className='form'>
           <h1>Cadastro de Usuáros</h1>
-          <input className='name' type='text' placeholder='Digite o nome' />
-          <input className='idade' type='number' placeholder='Digite a idade' />
-          <input className='email' type="text" placeholder='Digite o email' />
+          <input className='name' type='text' placeholder='Digite o nome' required/>
+          <input className='idade' type='number' placeholder='Digite a idade' required/>
+          <input className='email' type="text" placeholder='Digite o email' required/>
         </form>
-        <button type='button'>Enviar</button>
+        <button type='submit'>Enviar</button>
       </div>
 
     </>
